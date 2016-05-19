@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    	<meta charset="utf-8">
+    	<title>Requin Poulpe Dauphin</title>
+    	<link rel="stylesheet" href="css/repoudof.css"/>
+    	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class= "container-fluid" >
+	<header>
+		<div class = "jumbotron row ">
+        	<div class = "titre center-block">
+        		<h1 class="text-center col-xs-12">
+        			<img class="hidden-xs col-sd-12 col-md-3" src="css/images/dolphin.png"> 
+        			<div class = "col-sd-12 col-md-6 ">Repoudof : requin, poulpe, dauphin !</div>
+        			<img class="hidden-xs col-sd-12 col-md-3" src="css/images/squid.png">
+        		</h1> 
+				<h2 class="text-center col-xs-12 ckoi" id="ckoi">
+					<img class="hidden-xs col-sd-1" src="css/images/shark.png"> 
+					Le jeu "pierre feuille ciseaux" en milieu marin
+					</br> Copyright : Jéjé
+				</h2>
+        	</div>
+        </div>
+	</header>
+
+            <div class="jumbotron row jouer" id="jouer"">
+                <div class="col-xs-12">
+                    <ul id="menu-accordeon"><a href="#">Choisis ton destrier</a>
+                        <li><a href="#" id="requin">Requin</a></li>
+                        <li><a href="#" id="dauphin">Dauphin</a></li>
+                        <li><a href="#" id="poulpe">Poulpe</a></li>
+                    </ul>
+                </div>
+                <button id="go" class="center-block">Go !</button>
+                <div id="choixJoueur" class="col-xs-12 col-md-6 text-center"><h3>choix Joueur</h3></div>
+                <div id="choixOrdinateur" class="col-xs-12 col-md-6 text-center"><h3>choix Ordinateur</h3></div>
+                <div id="resultat" class="col-xs-12 text-center"><h3>Résultat</h3></div>
+            </div>
+
+                
+
+    	<div class="jumbotron row scores" id="scores">            
+                <div class="col-xs-12 col-sd-6 score" >
+                    <h3 class="text-center">Score joueur</h3>
+                    <div id="scoreJoueur" class="text-center"></div>
+                </div>
+                <div class="col-xs-12 col-sd-6 score" >
+                    <h3 class="text-center">Score ordinateur</h3>
+                    <div id="scoreOrdinateur" class="text-center"></div>
+                </div>
+                <div class="col-xs-4"></div><div class="col-xs-4 text-center" id="pourcentage">Mon pourcentage</div><div class="col-xs-4"></div>
+            </div>
+        </div>
+
+
+<toolbar>
+	<div class="navbar navbar-inverse navbar-fixed-top"> 
+     	<div class="container">
+      		
+      		<div class="navbar-header">
+      			 <button type="button" class="navbar-toggle" href="deroule" data-toggle="collapse" data-target=".navbar-collapse">
+      				<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+    			</button>
+      			<a class="navbar-brand" href="#page-top">Repoudof</a>
+      		</div>
+      		
+      			<div id="deroule" class="collapse navbar-collapse">
+      				<ul class="nav navbar-nav">
+        				<li class="hidden"><a href="#page-top"></a></li>
+       		 			<li><a href="#ckoi" id="ckoi">Qu'est-ce que c'est ?</a></li>
+        				<li><a href="#jouer" id="jouer">Jouer</a></li>
+        				<li><a href="#scores" id="scores">Mes scores</a></li>      		
+      				</ul>
+      			</div>
+      			
+      	</div>
+      </div>
+	</toolbar>
+
+	<script src="js/repoudof.js"></script>
+	<!--aide au déboguage : Max-->
+</body>
+</html>

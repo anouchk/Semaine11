@@ -1,0 +1,103 @@
+/*------------------------------Corps du jeu-----------------------------*/
+body {
+    background-image: url("images/weather.png");
+    padding-top :20px;
+}
+
+.jumbotron {
+      	background-image: url("images/weather.png");
+      }
+
+#choixOrdinateur {
+    color: #446890;
+    font-size : 30px;
+}
+
+#choixJoueur {
+    color: #56848d;
+    font-size : 30px;
+}
+
+#resultat {
+    color: #fffcb1;
+    font-size : 30px;
+}
+
+#pourcentage {
+	font-size : 20px;
+	border : solid 10px;
+	border-style: dotted;
+	padding : 10px;
+	}
+
+#go {
+    color: white;
+    background-color: #292929;
+    border-radius: 10px;
+    border:none;
+    width: 300px,
+    margin-top: 510px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#bouton:hover {
+    background-color: #4C4C4C;
+}
+
+#bouton:active {
+    background-color: white;
+}
+
+
+/*------------------------------Menu déroulant-----------------------------*/
+
+#menu-accordeon {
+  padding:0;
+  margin: auto;
+  list-style:none;
+  text-align: center;
+  width: 300px;
+  background-color:#292929; 
+  border-radius: 6px;
+  margin-bottom:50px;
+  margin-top: -40px;
+  border: solid 1px black;
+}
+
+#menu-accordeon li {
+   max-height:0;
+   overflow: hidden;
+   transition: all .5s;
+   border-radius:0;
+   background: #292929;
+   box-shadow: none;
+   border:none;
+   margin:0
+}
+
+#menu-accordeon a {
+  display:block;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+  font-size : 30px;
+}
+#menu-accordeon li a, #menu-accordeon:hover li a {
+  font-size : 30px;
+}
+
+#menu-accordeon li:hover {
+   background: #999;
+}
+#menu-accordeon li:last-child {
+   border-radius: 0 0 6px 6px;
+   border:none;
+}
+#menu-accordeon:hover li {
+  max-height: 15em;
+}
+
+#menu-accordeon li:active {
+    background-color: #292929;
+}
